@@ -1,0 +1,67 @@
+@value font from '../../variables.module.css';
+
+.profile {
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-top: 23px;
+  padding-bottom: 15px;
+  background: white;
+}
+
+.avatar {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.name {
+  color: black;
+  font-size: 25px;
+  font-family: font;
+  text-align: center;
+  font-weight: 500;
+}
+
+.tag,
+.location {
+  color: rgb(129, 128, 128);
+  text-align: center;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 15px 15px 15px 36px;
+  background: rgb(235, 235, 235);
+  justify-content: space-between;
+}
+
+.label {
+  color: rgb(129, 128, 128);
+}
+
+.quantity {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-right: 2px solid black;
+  padding-right: 37px;
+}
+
+.item:last-child {
+  border-right: none;
+}

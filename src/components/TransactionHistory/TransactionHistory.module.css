@@ -1,0 +1,29 @@
+@value font from '../../variables.module.css';
+
+.transactionHistory {
+  width: 400px;
+  margin: auto;
+}
+
+.columb {
+  text-align: center;
+  font-family: font;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.title {
+  font-family: font;
+  font-size: 14px;
+  background: rgb(30, 230, 230);
+  color: rgba(255, 255, 255, 0.932);
+  letter-spacing: 1.5px;
+}
+
+.line {
+  background: rgba(255, 255, 255, 0.925);
+}
+
+.line:nth-child(even) {
+  background: rgb(235, 235, 235);
+}
